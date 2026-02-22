@@ -31,7 +31,7 @@ print ("===WELCOME===")
 
 while True:
     slow_text(
-    "===GAME MENU===\n"
+    "===MISI PENANGKAPAN===\n"
     "1. MULAI GAME\n"
     "2. ENDINGS\n"
     "3. KELUAR\n"
@@ -98,7 +98,7 @@ while True:
                 "Selamat tinggal!\n"
             )
             save_ending("ENDING PENGANGGURAN: KAMU DIPECAT KARENA MENOLAK MISI\n")
-            print("=== KAMU DAPAT SECRET ENDING ===\n")
+            print("=== KAMU MENDAPAT 'SECRET ENDING (3/3)' ===\n")
             game_over = True
             break
 
@@ -120,9 +120,9 @@ while True:
 
     slow_text(
     f"{name} : (baiklah apa yang aku harus lakukan sekarang?) \n"
-    "CAPTAIN RAYLE : (ada beberapa ruangan yang hanya bisa di akses oleh tamu VIP, dan staff.)\n"
-    "CAPTAIN RAYLE : (cari kartu akses staff dan masuk ke ruangan cctv, dan hack sistem cctv agar orang-orang di markas bisa membantu)\n"
-    "CAPTAIN RAYLE : (ingat, jangan sampai melakukan tindakan mencurigakan, atau kau akan di usir dari pesta.)\n"
+    "CAPTAIN RAYLE : (ada beberapa ruangan yang hanya bisa di akses oleh tamu VIP dan staff.)\n"
+    "CAPTAIN RAYLE : (cari kartu akses staff dan masuk ke ruangan cctv. lalu hack sistem cctv, agar orang-orang di markas bisa membantu)\n"
+    "CAPTAIN RAYLE : (ingat, jangan sampai melakukan tindakan mencurigakan, atau kau akan diusir dari pesta.)\n"
     )
     input()
 
@@ -135,7 +135,7 @@ while True:
     slow_text(
                 f"{name} / Andrew : maaf, apakah anda baik - baik saja?\n"
                 "STAFF SECURITY : ahh.. iya, saya merasa sedikit pusing karena tempat ini terlalu bising.\n"
-                f"{name} / Andrew : ayo saya bantu ke belakang gedung."
+                f"{name} / Andrew : ayo, saya bantu ke belakang gedung."
                 "kamu pun membawa staff security itu ke tempat yang lebih sepi dan sunyi, setelah memastilkan tidak ada orang di sekitar, kamu langsung memukulnya dari belakang sampai pingsan dan mengambil kartu aksesnya, dan menyembunyikan tubuhnya di tempat sampah.\n"
             "----kamu mendapatkan kartu akses staff----\n"
         )
@@ -174,8 +174,8 @@ while True:
     input()
 
     slow_text(
-            f"KHAI: ({name}, aku melihat Robert ada di ruangan khusus VIP, kau bisa masuk dengan menyamar menjadi salah satu securty khusus VIP, ada salah satu securty VIP yang sedang di toilet khusus staff, masuk diam diam dan ambil bajunya.)\n"
-            f"{name} : (baik, terikasih atas infonya.)\n"
+            f"KHAI: ({name}, aku melihat Robert ada di ruangan khusus VIP, kau bisa masuk dengan menyamar menjadi salah satu security khusus VIP, ada salah satu securty VIP yang sedang di toilet khusus staff, masuk diam diam dan ambil bajunya.)\n"
+            f"{name} : (baik, terikasih atas informasinya.)\n"
             f"KHAI: (ingat jangan sampai ada yang melihat mu)\n"
         )
     input()
@@ -213,14 +213,14 @@ while True:
             f"{name} : tempat apa ini?"
             "ROBERT : ini tempat untuk mengurung/mengeksekusi penghianat dan mata - mata.\n"
             f"{name} : memangnya ada apa sampai bos membawa saya kesini.\n"
-            "ROBERT : aku ingin kau membunuh seseorang untuk ku, dia mata - mata yang di kirim oleh para FBI 1 bulan lalu.\n"
+            "ROBERT : aku ingin kau membunuh seseorang untuk ku, dia mata - mata yang di kirim oleh para FBI 1 bulan yang lalu.\n"
             f"{name} : (mata - mata yang dikirim anngota FBI?)\n"
             "ROBERT : baiklah aku sudah membuka pintuny, ayo masuk dan kau bunuh orang itu saat aku selesai bicara dengannya.\n"
         )
     input()
 
     slow_text(
-        "saat kau masuk kedalam ruangan itu besama Robert, kau melihat mata - mata FBI itu sudah memiliki luka yang sanagat parah dan terlihat seperti orang yang tela di siksa dalam waktu yang lama.\n"
+        "saat kau masuk kedalam ruangan itu besama Robert, kau melihat mata - mata FBI itu sudah memiliki luka yang sanagat parah dan terlihat seperti orang yang telah disiksa dalam waktu yang lama.\n"
         "kau merasa ketakutan dan ingin kabur dari tempat itu tetapi kau tidak bisa karena misimu.\n"
         "sementara itu Robert berbicara dengan orang itu walaupun dia tidak di gubris.\n"
     )
@@ -230,8 +230,8 @@ while True:
     slow_text(
         "ROBERT : baiklah nak aku sudah selesai berbicara dengannya, kau bisa membunuhnya sekarang menggunakan pisau yang ada di meja.\n"
         f"{name} : baiklah . . . (kau hanya berdiri diam sambil memegang pisau)\n"
-        "ROBERT : apa yang kau tunggu nak, cepat lakukan."
-        "apa yang akan kamu lakukan"
+        "ROBERT : apa yang kamu tunggu nak? cepat lakukan!"
+        "apa yang akan kamu lakukan?"
         "[1. SERANG ROBERT]\n"
         "[2. BUNUH MATA - MATA FBI]\n"
     )
@@ -246,22 +246,33 @@ while True:
                 "kau langsung menyerang Robert dengan pisau itu, dan berhasil menusuk bahunya.\n"
                 "saat robert mau berteriak kau langsung menutup mulutnya dan mencekek Robert sampai pingsan.\n"
                 "saat Robert sudah pingsan, kau langsung menghubungi captain dan minta tolong untuk dijemput ke markas.\n"
-                "setelah itu kau keluar dari tempat itulewat jalan keluar rahasia yang sempat kau lhat saat menuju ke ruang bawah tanah.\n"
-                "beberapa hari kemudian berita Robert sudah tertangkap tersebar ke seluruh dunia, dan tim militer juga di kirim ke tempat pesta untuk menyelamatkan para korban yang sudah di culik oleh Robert.\n"
+                "setelah itu, kau keluar dari tempat itulewat jalan keluar rahasia yang sempat kau lhat saat menuju ke ruang bawah tanah.\n"
+                "beberapa hari kemudian, berita Robert sudah tertangkap tersebar ke seluruh dunia, dan tim militer juga di kirim ke tempat pesta untuk menyelamatkan para korban yang sudah di culik oleh Robert.\n"
                 "beberapa bawahan Robert menyerahkan diri ke polisi, sedangkan sisanya menjadi criminal yang dicari polisi.\n"
             )
             input()
-            save_ending("MISION SUCCESS ENDING : KAU BERHASIL MENANGKAP ROBERT")
-            print("=== KAMU MENDAPATKAN GOOD ENDING ===")
+            save_ending("MISION SUCCESS! ENDING : KAU BERHASIL MENANGKAP ROBERT")
+            print("=== KAMU MENDAPATKAN 'GOOD ENDING (2/3)' ===")
             game_over = True
             break
             
 
         elif pilihan("2"):
             slow_text(
-                ""
+                "kau langsung membunuh mata - mata tersebut.\n"
+                f"{name} : sudah ku bunuh bos!\n"
+                "ROBERT : bagus! Kamu sangat bagus sebagai pemula di sini."
+                f"{name} : hehe, terima kasih bos!\n"
+                "kamu pun menjadi bawahannya Robert.\n"
+                "tiba - tiba, tim di markas datang dan mengetahui bahwa kamu sudah menjadi bawahannya Robert dan kau di bunuh.\n"
             )
             input()
+            save_ending("MISION FAILED, ENDING : KAMU GAGAL")
+            print("=== KAMU MENDAPATKAN 'BAD ENDING (1/3)' ===")
+            game_over = True
+            break
+            
 
         if game_over:
             continue
+
